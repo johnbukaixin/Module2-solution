@@ -1,181 +1,37 @@
 body {
   font-size: 16px;
-  /*color: #fff;
-  background-color: #61122f;*/
-  font-family: 'Oxygen', sans-serif;
+  color: #000
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/** HEADER **/
-#header-nav {
- /* background-color: #f6b319;*/
-  border-radius: 0;
-  border: 0;
 
-}
-#collapsable-nav{
-  background-color: #191717;
-  
-  margin-left: 10px;
-  margin-right: 10px;
-  float: right;
-}
-.navbar-default {
-    background-color: #1D1B1B;
-    border-color: #e7e7e7;
-    height: 80px;
-}
-.navbar-header{
-  height: 80px;
-}
-.navbar-brand{
-	padding-top: 0px;
-	margin-left: 0px;
-}
-.navbar-brand p{
-	line-height: .75;
-	text-shadow: 1px 1px 1px #222;
 
-}
-.navbar-toggle {
-    margin-top: 20px;
-   
-}
-h2{
-	text-align: center;
-	font-size: 40px;
-}
-
-#nav-list {
-  margin-top: 10px;
-}
-#nav-list a {
-  color: #951C49;
+h2 {
   text-align: center;
 }
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
 
-
+footer {
+  width: 99%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+}
 p.content{
-  border: 1px solid black;
-  background-color: #888585;
+  border: 1px solid green;
+  background-color: #fff; 
+}
+.section {
+  width: 99%;
+  background-color: #000;
+  opacity: 0.7;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 10px;
+  margin: auto;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+.navbar-default .navbar-nav>li>a {
+  background-color: #337ab7;
+    color: #fff;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
-}
-@media (min-width: 1200px) {
- div.col-md-12{
-  border: 1px solid black;
-  background-color: #888585;
-}
-
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
- div.col-sm-12{
-  border: 1px solid black;
-  background-color: #888585;
-  
-  /* End Home Page */
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
- div.col-xs-12{
-  border: 1px solid black;
-  background-color: #888585;
-  margin: 10px;
-  /* End Home Page */
-}
- #collapsable-nav {
-    background-color: #191717;
-    margin-top: 80px;
-}
-}
-
-
-@media (max-width: 767px) {
-  /* Header */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-  }
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-  }
-  .navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-  }
-  .navbar-brand p img { /* Star-K */
-    height: 20px;
-  }
-
-  #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
- #collapsable-nav {
-    background-color: #191717;
-    margin-top: 80px;
-}
-  
-}
-  /* End Header */
-
-  /* Home Page */
-  
-
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-}
-
-@media (max-width: 479px) {
-  /* Header */
-  .navbar-brand h1 { /* Restaurant name */
-    padding-top: 5px;
-    font-size: 6vw;
-  }
-
-
-  /* End Header */
-  
-  /* Home page */
-  #menu-tile, #specials-tile {
-    width: 280px;
-    margin: 0 auto 15px;
-  }
-}
-
